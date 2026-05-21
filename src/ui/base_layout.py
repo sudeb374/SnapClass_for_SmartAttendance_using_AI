@@ -8,7 +8,7 @@ def style_background_home():
                 }
 
                 .stApp div[data-testid="stColumn"]{
-                        background-color: #E0E3FF !important;
+                        background-color: #E0E3FF!important;
                         padding: 2.5rem !important;
                         border-radius: 5rem !important;
                 }
@@ -59,7 +59,7 @@ def style_base_layout():
 
                 h3, h4, p {
                     font-family: 'Outfit', sans-serif;
-                    color: black !important;
+                    
                 }
 
                 button{
