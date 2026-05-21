@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>Attendance Logo - LogoDix</title>
+  <meta name="description" content="Attendance Logos in HD - PNG, SVG and EPS for vector files available. Find the perfect Attendance logo fast in LogoDix!">
+  	
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta name="csrf-token" content="ab8a6775e01bf23568312871785da26e2eb1d144ca40dad48bd477a0550436d2">
+  <link async rel="stylesheet" type="text/css" href="/screen.css?v=36"/>
+    <link rel="preconnect" href="https://a.pub.network/" crossorigin />
+<link rel="preconnect" href="https://b.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.pub.network/" crossorigin />
+<link rel="preconnect" href="https://d.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://s.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://btloader.com/" crossorigin />
+<link rel="preconnect" href="https://api.btloader.com/" crossorigin />
+<link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin />
+<link rel="stylesheet" href="https://a.pub.network/logodix-com/cls.css">
+
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.config.enabled_slots = [];
+  freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+</script>
+<script src="https://a.pub.network/logodix-com/pubfig.min.js" data-cfasync="false" async></script>
+<script src="//m.servedby-buysellads.com/monetization.js" type="45b513c5bcf9ff5e82ec1776-text/javascript"></script>
+  
+  <script src="//code.jquery.com/jquery-1.11.2.min.js" type="45b513c5bcf9ff5e82ec1776-text/javascript"></script>
+  <script src="/jquery.easy-autocomplete.min.js" type="45b513c5bcf9ff5e82ec1776-text/javascript"></script>
+  <link rel="stylesheet" href="/easy-autocomplete.min.css">
+
+  
+  <style>
+  #privacy-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1a1a2e;
+    color: #eee;
+    padding: 20px;
+    z-index: 10000;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+    font-size: 14px;
+    display: none;
+  }
+  #privacy-banner.show { display: block; }
+  #privacy-banner .pb-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  #privacy-banner .pb-text { flex: 1; min-width: 300px; }
+  #privacy-banner .pb-text a { color: #6eb5ff; }
+  #privacy-banner .pb-buttons { display: flex; gap: 10px; flex-wrap: wrap; }
+  #privacy-banner button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #privacy-banner .pb-accept {
+    background: #4CAF50;
+    color: white;
+  }
+  #privacy-banner .pb-decline {
+    background: #555;
+    color: white;
+  }
+  #privacy-banner button:hover { opacity: 0.9; }
+  @media (max-width: 768px) {
+    #privacy-banner .pb-content { flex-direction: column; text-align: center; }
+    #privacy-banner .pb-buttons { width: 100%; justify-content: center; }
+  }
+  </style>
+
+  <script type="45b513c5bcf9ff5e82ec1776-text/javascript">
+  $(document).ready(function(){
+    $('#burger-menu').click(function(){
+      $(this).toggleClass('active');
+      $('#header-nav').toggleClass('open');
+    });
+
+    // Privacy consent management
+    var privacyRegion = 'none';
+    var showBanner = false;
+
+    function setConsentCookie(value) {
+      var d = new Date();
+      d.setTime(d.getTime() + (365*24*60*60*1000));
+      document.cookie = "privacy_consent=" + value + ";expires=" + d.toUTCString() + ";path=/;SameSite=Lax";
+    }
+
+    function updateTaboolaConsent(accepted) {
+      window._taboola = window._taboola || [];
+      if (privacyRegion === 'gdpr') {
+        _taboola.push({ cex: accepted ? 'true' : 'false' });
+      } else if (privacyRegion === 'us_state') {
+        _taboola.push({ cdns: accepted ? 'false' : 'true' });
+      }
+    }
+
+    function handleConsent(accepted) {
+      setConsentCookie(accepted ? 'accepted' : 'declined');
+      updateTaboolaConsent(accepted);
+      $('#privacy-banner').removeClass('show');
+      if (accepted) {
+        // Reload ads/tracking if needed
+        if (typeof freestar !== 'undefined' && freestar.newAdSlots) {
+          freestar.newAdSlots(freestar.config.enabled_slots);
+        }
+      }
+    }
+
+    if (showBanner) {
+      $('#privacy-banner').addClass('show');
+    }
+
+    $('#pb-accept').click(function() { handleConsent(true); });
+    $('#pb-decline').click(function() { handleConsent(false); });
+
+    // Privacy Manager button (in footer)
+    $('#pmLink').click(function() {
+      $('#privacy-banner').addClass('show');
+    });
+  });
+  </script>
+</head>
+<body>
+<div id="web">
+	<div id="headerc"><div id="header">
+		<a href="/"><img src="/logo.png" alt="LogoDix logo" width="40" height="40" /></a>
+        <script type="45b513c5bcf9ff5e82ec1776-text/javascript">
+    var options = {
+      url: function(phrase) {
+        return "/suggest?q=" + phrase ;
+      },
+      getValue: "name",
+      template: {
+        type: "custom",
+        method: function(value, item) {
+          return "<img src='/logo/"+ item.thumb +"' /> " + value;
+        }
+      },
+      list: {
+        onClickEvent: function() {
+          var result = $("#q").getSelectedItemData();
+          window.location.href = "/" + result.slug;
+        }
+      }
+    };
+
+    $("#q").easyAutocomplete(options);
+
+
+    $('#search').submit(function() {
+      if($("#q").val() == '') {
+        return false;
+      }
+    });
+  </script>
+    <form id="search" method="get" action="/search">
+      <input type="text" id="q" name="q" autocomplete="off" />
+      <button id="submitsearch" title="Search" type="submit">Search</button>
+    </form>      <button id="burger-menu" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="header-nav">
+        <a href="/articles">Articles</a>
+        <a href="/lists">Logo Lists</a>
+        <a href="/lists/nba-logos">NBA Logos</a>
+        <a href="/lists/nfl-logos">NFL Logos</a>
+      </nav>
+		<br class="clear" />
+	</div></div>
+	<div id="contentc"><div id="content">
+
+    <h1>Attendance Logo</h1>
+		<p class="intro">We have found <strong>35 Attendance logos</strong>. Do you have a better <strong>Attendance</strong> logo file and want to share it? <a href="/upload?slug=attendance" style="color:#971e16;font-weight:600;">Upload it here!</a></p>               
+		
+    
+      <!-- Tag ID: logodix_leaderboard_atf -->
+    <div align="center" data-freestar-ad="__300x250 __970x250" id="logodix_leaderboard_atf">
+      <script data-cfasync="false" type="text/javascript">
+        freestar.config.enabled_slots.push({ placementName: "logodix_leaderboard_atf", slotId: "logodix_leaderboard_atf" });
+      </script>
+    </div>
+  
+<div class="featured-logo-wrapper">
+    <div class="featured-logo">
+                <a href="/logos/1829056" class="featured-logo-link">
+            <img src="/logo/1829056.jpg"
+                 alt="Attendance Logo"
+                 width="900"
+                 height="600"
+                 title="900x600 - JPG - Green, Product, Font, transparent png image & clipart free download" />
+        </a>
+    </div>
+</div>
+
+<div id="grid">
+	<div id="1829059" class="logo-item" data-fullimg="/logo/1829059.png" data-or="1200x630">
+						<a href="/logos/1829059">
+			<img src="/logo/1829059.png" alt="Attendance Logo - Checking attendance - Free social icons" width="1200" height="630" title="1200x630 - PNG - Checking attendance - Free social icons" />
+		</a>
+	</div>
+	<div id="1829060" class="logo-item" data-fullimg="/logo/1829060.jpg" data-or="1200x1200">
+						<a href="/logos/1829060">
+			<img src="/logo/1829060.jpg" alt="Attendance Logo - Be HERE to Kick Off Attendance Awareness Month - Sacramento City ..." width="1200" height="1200" title="1200x1200 - JPG - Be HERE to Kick Off Attendance Awareness Month - Sacramento City ..." />
+		</a>
+	</div>
+	<div id="1829061" class="logo-item top-logo top-2" data-fullimg="/logo/1829061.jpg" data-or="450x295">
+		<span class="top-badge"><span class="medal">🥈</span> 2nd most popular</span>				<a href="/logos/1829061">
+			<img src="/logo/1829061.jpg" alt="Attendance Logo - Attendance Policy and Forms – Campus Culture (Policies, Procedures ..." width="450" height="295" title="450x295 - JPG - Attendance Policy and Forms – Campus Culture (Policies, Procedures ..." />
+		</a>
+	</div>
+	<div id="1829062" class="logo-item" data-fullimg="/logo/1829062.png" data-or="661x372">
+						<a href="/logos/1829062">
+			<img src="/logo/1829062.png" alt="Attendance Logo - Qwickly Attendance | Blackboard, Canvas and D2L Brightspace ..." width="661" height="372" title="661x372 - PNG - Qwickly Attendance | Blackboard, Canvas and D2L Brightspace ..." />
+		</a>
+	</div>
+	<div id="1829063" class="logo-item" data-fullimg="/logo/1829063.png" data-or="300x300">
+						<a href="/logos/1829063">
+			<img src="/logo/1829063.png" alt="Attendance Logo - TG Attendance Welfare | Tudor Grange Academies Trust" width="300" height="300" title="300x300 - PNG - TG Attendance Welfare | Tudor Grange Academies Trust" />
+		</a>
+	</div>
+	<div id="1829066" class="logo-item" data-fullimg="/logo/1829066.jpg" data-or="297x297">
+						<a href="/logos/1829066">
+			<img src="/logo/1829066.jpg" alt="Attendance Logo - Bremen School Officials Switch Back to Previous Attendance Policy ..." width="297" height="297" title="297x297 - JPG - Bremen School Officials Switch Back to Previous Attendance Policy ..." />
+		</a>
+	</div>
+	<div id="1829068" class="logo-item" data-fullimg="/logo/1829068.png" data-or="2333x2338">
+						<a href="/logos/1829068">
+			<img src="/logo/1829068.png" alt="Attendance Logo - Time & Attendance – LogiSoft" width="2333" height="2338" title="2333x2338 - PNG - Time & Attendance – LogiSoft" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829070" class="logo-item" data-fullimg="/logo/1829070.png" data-or="1577x742">
+						<a href="/logos/1829070">
+			<img src="/logo/1829070.png" alt="Attendance Logo - Home - Attendance Works" width="1577" height="742" title="1577x742 - PNG - Home - Attendance Works" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829071" class="logo-item" data-fullimg="/logo/1829071.jpg" data-or="800x600">
+						<a href="/logos/1829071">
+			<img src="/logo/1829071.jpg" alt="Attendance Logo - InClass - Smart Attendance App by Jalil ur Rehman on Dribbble" width="800" height="600" title="800x600 - JPG - InClass - Smart Attendance App by Jalil ur Rehman on Dribbble" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829073" class="logo-item" data-fullimg="/logo/1829073.jpg" data-or="1111x833">
+						<a href="/logos/1829073">
+			<img src="/logo/1829073.jpg" alt="Attendance Logo - Serious, Professional, It Company Logo Design for I dont want any ..." width="1111" height="833" title="1111x833 - JPG - Serious, Professional, It Company Logo Design for I dont want any ..." loading="lazy" />
+		</a>
+	</div>
+	<div id="1829074" class="logo-item" data-fullimg="/logo/1829074.jpg" data-or="1200x627">
+						<a href="/logos/1829074">
+			<img src="/logo/1829074.jpg" alt="Attendance Logo - Time and Attendance Software Comparison" width="1200" height="627" title="1200x627 - JPG - Time and Attendance Software Comparison" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829076" class="logo-item" data-fullimg="/logo/1829076.png" data-or="1500x1500">
+						<a href="/logos/1829076">
+			<img src="/logo/1829076.png" alt="Attendance Logo - Serious, Professional, It Company Logo Design for I dont want any ..." width="1500" height="1500" title="1500x1500 - PNG - Serious, Professional, It Company Logo Design for I dont want any ..." loading="lazy" />
+		</a>
+	</div>
+	<div id="1829077" class="logo-item" data-fullimg="/logo/1829077.jpg" data-or="235x156">
+						<a href="/logos/1829077">
+			<img src="/logo/1829077.jpg" alt="Attendance Logo - Attendance and Engagement - DJUSD" width="235" height="156" title="235x156 - JPG - Attendance and Engagement - DJUSD" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829078" class="logo-item" data-fullimg="/logo/1829078.png" data-or="624x468">
+						<a href="/logos/1829078">
+			<img src="/logo/1829078.png" alt="Attendance Logo - Simplifying Attendance process through UX Design - Prototypr" width="624" height="468" title="624x468 - PNG - Simplifying Attendance process through UX Design - Prototypr" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829079" class="logo-item" data-fullimg="/logo/1829079.jpg" data-or="825x453">
+						<a href="/logos/1829079">
+			<img src="/logo/1829079.jpg" alt="Attendance Logo - Minneapolis Public Schools Attendance Policy" width="825" height="453" title="825x453 - JPG - Minneapolis Public Schools Attendance Policy" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829081" class="logo-item" data-fullimg="/logo/1829081.jpg" data-or="300x300">
+						<a href="/logos/1829081">
+			<img src="/logo/1829081.jpg" alt="Attendance Logo - 5/21/19 Unit 5 & Unit 7 Mtg Attendance - CWA Local 1170" width="300" height="300" title="300x300 - JPG - 5/21/19 Unit 5 & Unit 7 Mtg Attendance - CWA Local 1170" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829084" class="logo-item" data-fullimg="/logo/1829084.png" data-or="210x210">
+						<a href="/logos/1829084">
+			<img src="/logo/1829084.png" alt="Attendance Logo - Middlebury Community Schools - Attendance" width="210" height="210" title="210x210 - PNG - Middlebury Community Schools - Attendance" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829085" class="logo-item" data-fullimg="/logo/1829085.jpg" data-or="900x806">
+						<a href="/logos/1829085">
+			<img src="/logo/1829085.jpg" alt="Attendance Logo - Logo Design for (None provided) by Pragya Kedia | Design #1013370" width="900" height="806" title="900x806 - JPG - Logo Design for (None provided) by Pragya Kedia | Design #1013370" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829086" class="logo-item" data-fullimg="/logo/1829086.png" data-or="642x214">
+						<a href="/logos/1829086">
+			<img src="/logo/1829086.png" alt="Attendance Logo - Front Office / Attendance" width="642" height="214" title="642x214 - PNG - Front Office / Attendance" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829089" class="logo-item" data-fullimg="/logo/1829089.jpg" data-or="678x489">
+						<a href="/logos/1829089">
+			<img src="/logo/1829089.jpg" alt="Attendance Logo - Attendance Information - Windsor High School" width="678" height="489" title="678x489 - JPG - Attendance Information - Windsor High School" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829090" class="logo-item" data-fullimg="/logo/1829090.jpg" data-or="1200x800">
+						<a href="/logos/1829090">
+			<img src="/logo/1829090.jpg" alt="Attendance Logo - Terence Fallon - United Airlines Electronic Time and Attendance Logo" width="1200" height="800" title="1200x800 - JPG - Terence Fallon - United Airlines Electronic Time and Attendance Logo" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829092" class="logo-item" data-fullimg="/logo/1829092.png" data-or="500x241">
+						<a href="/logos/1829092">
+			<img src="/logo/1829092.png" alt="Attendance Logo - Attendance - Elma School District" width="500" height="241" title="500x241 - PNG - Attendance - Elma School District" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829093" class="logo-item" data-fullimg="/logo/1829093.png" data-or="1200x1200">
+						<a href="/logos/1829093">
+			<img src="/logo/1829093.png" alt="Attendance Logo - TotalCard Attendance - Diamond Business Services" width="1200" height="1200" title="1200x1200 - PNG - TotalCard Attendance - Diamond Business Services" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829094" class="logo-item" data-fullimg="/logo/1829094.jpg" data-or="400x400">
+						<a href="/logos/1829094">
+			<img src="/logo/1829094.jpg" alt="Attendance Logo - HVMS Attendance Information | North Clackamas School District" width="400" height="400" title="400x400 - JPG - HVMS Attendance Information | North Clackamas School District" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829095" class="logo-item top-logo top-1" data-fullimg="/logo/1829095.jpg" data-or="890x602">
+		<span class="top-badge"><span class="medal">🥇</span> 1st most popular</span>				<a href="/logos/1829095">
+			<img src="/logo/1829095.jpg" alt="Attendance Logo - Should attendance be compulsory for students? | It Matters ..." width="890" height="602" title="890x602 - JPG - Should attendance be compulsory for students? | It Matters ..." loading="lazy" />
+		</a>
+	</div>
+	<div id="1829097" class="logo-item top-logo top-3" data-fullimg="/logo/1829097.png" data-or="256x256">
+		<span class="top-badge"><span class="medal">🥉</span> 3rd most popular</span>				<a href="/logos/1829097">
+			<img src="/logo/1829097.png" alt="Attendance Logo - Attendance" width="256" height="256" title="256x256 - PNG - Attendance" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829098" class="logo-item" data-fullimg="/logo/1829098.png" data-or="417x366">
+						<a href="/logos/1829098">
+			<img src="/logo/1829098.png" alt="Attendance Logo - Attend Today, Achieve Tomorrow." width="417" height="366" title="417x366 - PNG - Attend Today, Achieve Tomorrow." loading="lazy" />
+		</a>
+	</div>
+	<div id="1829099" class="logo-item" data-fullimg="/logo/1829099.png" data-or="418x417">
+						<a href="/logos/1829099">
+			<img src="/logo/1829099.png" alt="Attendance Logo - Employee Scheduling Software for Hourly Workforces | Shiftboard" width="418" height="417" title="418x417 - PNG - Employee Scheduling Software for Hourly Workforces | Shiftboard" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829100" class="logo-item" data-fullimg="/logo/1829100.png" data-or="342x367">
+						<a href="/logos/1829100">
+			<img src="/logo/1829100.png" alt="Attendance Logo - Clear background logo GREEN-NO SM - Attendance Awareness Month 2018" width="342" height="367" title="342x367 - PNG - Clear background logo GREEN-NO SM - Attendance Awareness Month 2018" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829102" class="logo-item" data-fullimg="/logo/1829102.jpg" data-or="2048x497">
+						<a href="/logos/1829102">
+			<img src="/logo/1829102.jpg" alt="Attendance Logo - new attendance logo" width="2048" height="497" title="2048x497 - JPG - new attendance logo" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829104" class="logo-item" data-fullimg="/logo/1829104.jpg" data-or="1200x1000">
+						<a href="/logos/1829104">
+			<img src="/logo/1829104.jpg" alt="Attendance Logo - 56 Elegant Icon Designs | Steven | Free business card design, Icon ..." width="1200" height="1000" title="1200x1000 - JPG - 56 Elegant Icon Designs | Steven | Free business card design, Icon ..." loading="lazy" />
+		</a>
+	</div>
+	<div id="1829105" class="logo-item" data-fullimg="/logo/1829105.jpg" data-or="211x211">
+						<a href="/logos/1829105">
+			<img src="/logo/1829105.jpg" alt="Attendance Logo - Hemet Unified School District" width="211" height="211" title="211x211 - JPG - Hemet Unified School District" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829107" class="logo-item" data-fullimg="/logo/1829107.jpg" data-or="602x602">
+						<a href="/logos/1829107">
+			<img src="/logo/1829107.jpg" alt="Attendance Logo - Attendance Award Emblem" width="602" height="602" title="602x602 - JPG - Attendance Award Emblem" loading="lazy" />
+		</a>
+	</div>
+	<div id="1829114" class="logo-item" data-fullimg="/logo/1829114.jpg" data-or="728x508">
+						<a href="/logos/1829114">
+			<img src="/logo/1829114.jpg" alt="Attendance Logo - Paramount Elementary School Computer Icons Time And Attendance PNG ..." width="728" height="508" title="728x508 - JPG - Paramount Elementary School Computer Icons Time And Attendance PNG ..." loading="lazy" />
+		</a>
+	</div>
+
+
+
+</div>
+ 
+<div id="sidebar">
+      <!-- Tag ID: logodix_skyscraper_right -->
+    <div align="center" data-freestar-ad="__300x600 __300x600" id="logodix_skyscraper_right">
+      <script data-cfasync="false" type="text/javascript">
+        freestar.config.enabled_slots.push({ placementName: "logodix_skyscraper_right", slotId: "logodix_skyscraper_right" });
+      </script>
+    </div>
+  </div>
+
+
+
+<div id="related-logos" style="clear:both; width:100%; padding-top: 30px;">
+    <h2>Related Logos</h2>
+    <div id="grid" class="largegrid">
+    <div id="rel-478596" data-fullimg="/logo/478596.png">
+        <a href="/community">
+            <img src="/logo/478596.png" alt="Community Logo" title="Community Logo" loading="lazy" />
+        </a>
+    </div>
+    <div id="rel-1615300" data-fullimg="/logo/1615300.jpg">
+        <a href="/character">
+            <img src="/logo/1615300.jpg" alt="Character Logo" title="Character Logo" loading="lazy" />
+        </a>
+    </div>
+    <div id="rel-1959819" data-fullimg="/logo/1959819.png">
+        <a href="/mediation">
+            <img src="/logo/1959819.png" alt="Mediation Logo" title="Mediation Logo" loading="lazy" />
+        </a>
+    </div>
+    </div>
+</div>
+
+<script type="45b513c5bcf9ff5e82ec1776-text/javascript">
+var _statcounter = _statcounter || [];
+_statcounter.push({"tags": {"p": "k"}});
+</script>
+	</div></div>
+	<br class="clear" />
+		<div id="statsc"><div id="stats">
+		<p><span id="nlogos">146,676</span> <span class="tstats">logos of</span> <span id="ncats">4,892</span> <span class="tstats">brands, shapes and colors.</span></p>
+	</div></div>
+	<br class="clear" />
+	
+	<div id="alphac"><div id="alpha">
+		<h2>Logos by Letter</h2>
+		   	<a href="/a-logos" title="A Logos"><img src="/img/a.png" alt="Logos with letter A" width="30" height="30" /></a>
+		   	<a href="/b-logos" title="B Logos"><img src="/img/b.png" alt="Logos with letter B" width="30" height="30" /></a>
+		   	<a href="/c-logos" title="C Logos"><img src="/img/c.png" alt="Logos with letter C" width="30" height="30" /></a>
+		   	<a href="/d-logos" title="D Logos"><img src="/img/d.png" alt="Logos with letter D" width="30" height="30" /></a>
+		   	<a href="/e-logos" title="E Logos"><img src="/img/e.png" alt="Logos with letter E" width="30" height="30" /></a>
+		   	<a href="/f-logos" title="F Logos"><img src="/img/f.png" alt="Logos with letter F" width="30" height="30" /></a>
+		   	<a href="/g-logos" title="G Logos"><img src="/img/g.png" alt="Logos with letter G" width="30" height="30" /></a>
+		   	<a href="/h-logos" title="H Logos"><img src="/img/h.png" alt="Logos with letter H" width="30" height="30" /></a>
+		   	<a href="/i-logos" title="I Logos"><img src="/img/i.png" alt="Logos with letter I" width="30" height="30" /></a>
+		   	<a href="/j-logos" title="J Logos"><img src="/img/j.png" alt="Logos with letter J" width="30" height="30" /></a>
+		   	<a href="/k-logos" title="K Logos"><img src="/img/k.png" alt="Logos with letter K" width="30" height="30" /></a>
+		   	<a href="/l-logos" title="L Logos"><img src="/img/l.png" alt="Logos with letter L" width="30" height="30" /></a>
+		   	<a href="/m-logos" title="M Logos"><img src="/img/m.png" alt="Logos with letter M" width="30" height="30" /></a>
+		   	<a href="/n-logos" title="N Logos"><img src="/img/n.png" alt="Logos with letter N" width="30" height="30" /></a>
+		   	<a href="/o-logos" title="O Logos"><img src="/img/o.png" alt="Logos with letter O" width="30" height="30" /></a>
+		   	<a href="/p-logos" title="P Logos"><img src="/img/p.png" alt="Logos with letter P" width="30" height="30" /></a>
+		   	<a href="/q-logos" title="Q Logos"><img src="/img/q.png" alt="Logos with letter Q" width="30" height="30" /></a>
+		   	<a href="/r-logos" title="R Logos"><img src="/img/r.png" alt="Logos with letter R" width="30" height="30" /></a>
+		   	<a href="/s-logos" title="S Logos"><img src="/img/s.png" alt="Logos with letter S" width="30" height="30" /></a>
+		   	<a href="/t-logos" title="T Logos"><img src="/img/t.png" alt="Logos with letter T" width="30" height="30" /></a>
+		   	<a href="/u-logos" title="U Logos"><img src="/img/u.png" alt="Logos with letter U" width="30" height="30" /></a>
+		   	<a href="/v-logos" title="V Logos"><img src="/img/v.png" alt="Logos with letter V" width="30" height="30" /></a>
+		   	<a href="/w-logos" title="W Logos"><img src="/img/w.png" alt="Logos with letter W" width="30" height="30" /></a>
+		   	<a href="/x-logos" title="X Logos"><img src="/img/x.png" alt="Logos with letter X" width="30" height="30" /></a>
+		   	<a href="/y-logos" title="Y Logos"><img src="/img/y.png" alt="Logos with letter Y" width="30" height="30" /></a>
+		   	<a href="/z-logos" title="Z Logos"><img src="/img/z.png" alt="Logos with letter Z" width="30" height="30" /></a>
+			</div></div>
+	<br class="clear" />
+	
+	<div id="categoriesc"><div id="categories">
+		<h2>Logo Categories</h2>
+		<div id="catlist">
+			<ul>
+		    					<li><a href="/agriculture-logos">Agriculture</a>
+										<li><a href="/animals-pets-logos">Animals & Pets</a>
+										<li><a href="/business-consulting-logos">Business & Consulting</a>
+										<li><a href="/car-motor-logos">Car & Motor</a>
+										<li><a href="/communication-logos">Communication</a>
+										<li><a href="/education-logos">Education</a>
+										<li><a href="/energy-logos">Energy</a>
+										<li><a href="/entertainment-logos">Entertainment</a>
+										<li><a href="/environment-green-logos">Environment & Green</a>
+										<li><a href="/fashion-beauty-logos">Fashion & Beauty</a>
+										<li><a href="/finance-accounting-logos">Finance & Accounting</a>
+										<li><a href="/food-drink-logos">Food & Drink</a>
+										<li><a href="/games-recreation-logos">Games & Recreation</a>
+										<li><a href="/industrial-engineering-logos">Industrial & Engineering</a>
+										<li><a href="/internet-it-logos">Internet & IT</a>
+										<li><a href="/legal-logos">Legal</a>
+										<li><a href="/manufacturing-logos">Manufacturing</a>
+										<li><a href="/media-logos">Media</a>
+										<li><a href="/medical-health-logos">Medical & Health</a>
+										<li><a href="/music-logos">Music</a>
+										<li><a href="/non-profit-logos">Non-Profit</a>
+										<li><a href="/real-estate-logos">Real Estate</a>
+										<li><a href="/restaurants-logos">Restaurants</a>
+										<li><a href="/retail-sale-logos">Retail & Sale</a>
+										<li><a href="/sports-fitness-logos">Sports & Fitness</a>
+										<li><a href="/transportation-logos">Transportation</a>
+										<li><a href="/travel-hotel-logos">Travel & Hotel</a>
+								</ul>
+		</div>
+	</div></div>
+	<div id="footer">
+		<div id="footermenuc"><div id="footermenu">
+			<div class="footersubmenu">
+				<h2>LogoDix</h2>
+				<ul>
+					<li><a href="/about-us">About Us</a></li>
+					<li><a href="/articles">Articles</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="footersubmenu">
+				<h2>Resources</h2>
+				<ul>
+					<li><a href="/lists">Logo Lists</a></li>
+					<li><a href="/request">Request a Logo</a></li>
+					<li><a href="/links">Links</a></li>
+				</ul>
+			</div>
+			<div class="footersubmenu">
+				<h2>Legal</h2>
+				<ul>
+					<li><a href="/terms-of-service">Terms of Service</a></li>
+					<li><a href="/privacy-policy">Privacy Policy</a></li>
+					<li><a href="/dmca">DMCA Complaint</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div></div>
+		<div id="subfooterc"><div id="subfooter">
+			<p id="from">Made with love & tons of coffee in <a href="https://www.google.com/maps/place/Berkeley,%20CA">Berkeley</a>, <a href="https://www.google.com/maps/place/Berlin">Berlin</a>, and <a href="https://www.google.com/maps/place/Bangkok">Bangkok</a>.</p>
+			<p id="copy">LogoDix &copy; 2018 - 2026. All rights reserved. <button id="pmLink">Cookie Settings</button></p>
+			<br class="clear" />
+		</div></div>
+	</div>
+</div>
+<style>
+    #pmLink {
+        text-decoration: none;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        color: #dee2e6;
+        padding: 0;
+        font-size: 100%;
+    }
+    #pmLink:hover { color: #fff; }
+        #pmLink { display: none; }
+    </style>
+
+
+<!-- Default Statcounter code for logopix.com
+http://logopix.com -->
+<script type="45b513c5bcf9ff5e82ec1776-text/javascript">
+var sc_project=11947809; 
+var sc_invisible=1; 
+var sc_security="813031af"; 
+var sc_https=1; 
+</script>
+<script type="45b513c5bcf9ff5e82ec1776-text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/11947809/0/813031af/1/"
+alt="Web Analytics" width="1" height="1"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<!-- GDFHVCMV212148678 -->
+<script type="45b513c5bcf9ff5e82ec1776-text/javascript">
+(function(){
+  if(typeof _bsa !== 'undefined' && _bsa) {
+    _bsa.init('flexbar', 'CE7DKK7U', 'placement:logodixcom');
+  }
+})();
+</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="45b513c5bcf9ff5e82ec1776-|49" defer></script></body>
+</html>
