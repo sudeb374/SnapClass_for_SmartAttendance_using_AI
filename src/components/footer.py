@@ -4,7 +4,16 @@ def footer_home():
 
     st.markdown(f"""
         <div style='margin-top: 10px; display:flex; gap:6px; justify-content: center; item-align: center;'>
-            <p style='font-weight: bold; font-size: 20px;'>Developed by Sudeb 🇮🇳</p>
+            <p style='font-weight: bold; font-size: 20px;font-color:white'>Developed by Sudeb 🇮🇳</p>
+        </div>
+        """, unsafe_allow_html=True
+    )
+
+def footer_dashboard():
+
+    st.markdown(f"""
+        <div style='margin-top: 10px; display:flex; gap:6px; justify-content: center; item-align: center;'>
+            <p style='font-weight: bold; font-size: 20px;font-color:black'>Developed by Sudeb 🇮🇳</p>
         </div>
         """, unsafe_allow_html=True
     )
