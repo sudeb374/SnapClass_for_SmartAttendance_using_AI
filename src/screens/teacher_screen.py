@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd # type: ignore
 from src.database.config import supabase
 from datetime import datetime
+import pytz # type: ignore
 
 def teacher_screen():
 
@@ -209,16 +210,26 @@ def teacher_tab_attendance_records():
     if not records:
         return
     data = []
+    ist = pytz.timezone('Asia/Kolkata')
 
     for r in records:
         ts = r.get('timestamp')
 
+        if ts:
+            utc_time = datetime.fromisoformat(ts).replace(tzinfo=pytz.utc)
+            ist_time = utc_time.astimezone(ist)
+            time_display = ist_time.strftime("%Y-%m-%d %I:%M %p")
+            ts_group = ist_time.strftime("%Y-%m-%dT%H:%M:%S")
+        else:
+            time_display = "N/A"
+            ts_group = None
+
         data.append({
-            "ts_group": ts.split(".")[0] if ts else None,
-            "Time": datetime.fromisoformat(ts).strftime("%Y-%m-%d %I:%M %p") if ts else "N'A",
+            "ts_group": ts_group,
+            "Time": time_display,
             "Subject": r['subjects']['name'],
-            "Subject Code":  r['subjects']['subject_code'],
-            "is_present": bool(('is_present', False))
+            "Subject Code": r['subjects']['subject_code'],
+            "is_present": bool(r.get('is_present', False))
         })
 
         df = pd.DataFrame(data)
@@ -234,7 +245,7 @@ def teacher_tab_attendance_records():
 
         summary['Attendance Stats'] = (
             "✅ " + summary['Present_Count'].astype(str)+ " /"
-            + summary['Total_Count'].astype(str) + 'students'
+            + summary['Total_Count'].astype(str) + ' students'
         )
 
         display_df = (summary.sort_values(by='ts_group' ,ascending=False)
