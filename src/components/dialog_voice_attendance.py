@@ -35,7 +35,7 @@ def voice_attendance_dialog(selected_subject_id):
 
             for node in enrolled_students:
                 student = node['students']
-                score = detected_scores.get(int(student['student_id']), [])
+                score = detected_scores.get(int(student['student_id']), 0)
                 is_present = bool(score>0)
 
                 results.append({
