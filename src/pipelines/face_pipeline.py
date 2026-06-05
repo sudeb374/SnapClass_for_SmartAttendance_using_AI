@@ -23,7 +23,7 @@ def load_dlib_models():
 
 def get_face_embeddings(Image_np):
     detector, sp, facerec = load_dlib_models()
-    faces = detector(Image_np, 0) ###if any error then change 1 
+    faces = detector(Image_np, 1) ###if any error then change 1 
     
 
     encodings = []
